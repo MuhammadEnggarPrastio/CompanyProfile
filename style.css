@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.jumbotron{
+	padding-top: 7rem;
+	background-color: #e2edff ;
+	background-image: url(img/baground.jpg);
+	background-repeat: no-repeat;
+}
+background-image{
+	opacity: 0.4;
+}
+
+#gallery{
+	background-color: #e2edff;
+}
+
+section{
+	padding-top: 5rem;
+}
+
+#contact{
+	padding-bottom: 3rem;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer{
+	margin-top: 2px;
+	background-color: #24262b;
+    padding: 3px 0;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 1px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
